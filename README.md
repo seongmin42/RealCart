@@ -54,5 +54,4 @@
 
 [Figma를 통해 스토리 보드 보기](https://www.figma.com/file/1CsDSrPjOCgIbFrGzz7rXX/SSAFY-%EA%B3%B5%ED%86%B5-PJT?node-id=0%3A1&t=x31VtcYOxlJEJpVD-0)
 
-## TEST
 
