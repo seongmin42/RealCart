@@ -18,11 +18,11 @@ import lombok.ToString;
 @Entity
 @Data
 @EqualsAndHashCode(callSuper=false)
-@Table(name="BOARD_FREE_TB")
-public class BoardFree extends BaseTime{
-
-    @Id
-    @Column(name="BOARD_FREE_PK")
+@Table(name="BOARD_REPORT_TB")
+public class BoardReport extends BaseTime{
+	
+	@Id
+    @Column(name="BOARD_REPORT_PK")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name="title")
@@ -31,6 +31,7 @@ public class BoardFree extends BaseTime{
     private int hit;
     @Column(name="content")
     private String content;
+    
     @ManyToOne
     @JoinColumn (name="USER_FK")
     @ToString.Exclude
