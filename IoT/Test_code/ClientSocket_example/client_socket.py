@@ -67,11 +67,11 @@ class ClientSocket:
     def recv(self):
         while True:
             data = self.sock.recv(2)
-            print(data)
+            print(int.from_bytes(data, byteorder='little'))
 
 
 def main():
-    TCP_IP = 'localhost'
+    TCP_IP = '54.180.138.25'
     TCP_PORT = 8081
     client = ClientSocket(TCP_IP, TCP_PORT)
 
